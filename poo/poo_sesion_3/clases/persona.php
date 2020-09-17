@@ -14,7 +14,7 @@ class Persona{
         $this->altura = $altura;
         $this->edad = null;
         $this->nif = null;
-        $this->sexo = 'm';
+        $this->sexo = 'H';
     }
 
     public function __toString():string{
