@@ -54,20 +54,7 @@ class Empleado{
         $this->sueldo = ($paramSueldo!==null)?$paramSueldo:self::SUELDO_BASE;
     }
 
-    /**
-     * Ejercicio para los alumnos
-     */
-    /**
-     * Método para dar modificar la fecha de contrato de los empleados
-     *
-     * @param integer $a año de contrato
-     * @param integer $m mes de contrato
-     * @param integer $d día de contrato
-     * @return void
-     */
-    public function setAltaContrato(int $a,int $m, int $d):void{
-        $this->altaContrato=DateTime::createFromFormat('Y-m-d',"$a-$m-$d"); //método estático por tanto no instanciamos el objeto
-    }
+   
 
     /**
      * Aumento dado a partir de un porcentaje en entero
